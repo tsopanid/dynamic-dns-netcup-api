@@ -8,7 +8,8 @@ define('APIPASSWORD', 'abcdefghijklmnopqrstuvwxyz');
 
 // Enter Domain which should be used for dynamic DNS
 define('DOMAIN', 'mydomain.com');
-//Enter subdomain to be used for dynamic DNS, alternatively '@' for domain root or '*' for wildcard. If the record doesn't exist, the script will create it.
+//Enter subdomain(s) to be used for dynamic DNS, alternatively '@' for domain root or '*' for wildcard. If the record doesn't exist, the script will create it.
+//For multile subdomains seperate them by comma: 'subdomain1,subdomain2,subdomain3'
 define('HOST', 'server');
 
 //Activate IPv4 update

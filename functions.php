@@ -247,7 +247,6 @@ function getCurrentPublicIPv6()
     return false;
 }
 
-/
 /**
  * Login into netcup domain API 
  * @param customernr Netcup Customer Number
